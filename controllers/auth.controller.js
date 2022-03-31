@@ -102,7 +102,8 @@ async function login(req, res, next) {
     try {
         existingUser = await user.getUserWithSameEmail();
     } catch (error) {
-        return next(error);
+        next(error);
+        return;
     }
 
     if (!existingUser) {
