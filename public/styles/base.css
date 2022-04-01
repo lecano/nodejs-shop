@@ -11,7 +11,7 @@ html {
     --color-gray-500: rgb(37, 34, 31);
     --color-gray-600: rgb(32, 29, 26);
     --color-gray-700: rgb(31, 26, 22);
-  
+
     --color-primary-50: rgb(253, 224, 200);
     --color-primary-100: rgb(253, 214, 183);
     --color-primary-200: rgb(250, 191, 143);
@@ -20,21 +20,21 @@ html {
     --color-primary-700: rgb(212, 120, 14);
     --color-primary-200-contrast: rgb(100, 46, 2);
     --color-primary-500-contrast: white;
-  
+
     --color-error-100: rgb(255, 192, 180);
     --color-error-500: rgb(199, 51, 15);
-  
+
     --color-primary-500-bg: rgb(63, 60, 58);
-  
+
     --space-1: 0.25rem;
     --space-2: 0.5rem;
     --space-4: 1rem;
     --space-6: 1.5rem;
     --space-8: 2rem;
-  
+
     --border-radius-small: 4px;
     --border-radius-medium: 6px;
-  
+
     --shadow-medium: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -50,7 +50,8 @@ main {
     margin: auto;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -71,7 +72,8 @@ a {
     border-radius: var(--border-radius-small);
 }
 
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
     background-color: var(--color-primary-700);
     border-color: var(--color-primary-700);
 }
@@ -81,7 +83,8 @@ a {
     color: var(--color-primary-500);
 }
 
-.btn-alt:hover, .btn-alt:active {
+.btn-alt:hover,
+.btn-alt:active {
     background-color: var(--color-primary-500-bg);
 }
 
@@ -100,4 +103,12 @@ a {
 
 .alert p {
     margin: var(--space-2) 0;
+}
+
+.badge {
+    margin-left: var(--space-2);
+    padding: 0.15rem var(--space-4);
+    border-radius: 10rem;
+    background-color: var(--color-primary-500);
+    color: var(--color-primary-500-contrast);
 }
