@@ -1,5 +1,5 @@
 .DS_Store
 /node_modules
-/product-data/images/
+/product-data/images/*
 .env
 .package-lock.json
