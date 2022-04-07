@@ -60,8 +60,8 @@ class Product {
     }
 
     updateImageData() {
-        this.imagePath = 'product-data/images/' + this.image;
-        this.imageUrl = '/products/assets/images/' + this.image;
+        this.imagePath = process.env.CLOUDINARY_FILE_URL + this.image;
+        this.imageUrl = process.env.CLOUDINARY_FILE_URL + this.image;
     }
 
     async save() {
